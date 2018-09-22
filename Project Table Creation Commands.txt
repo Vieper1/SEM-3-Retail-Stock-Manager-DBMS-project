@@ -1,0 +1,103 @@
+CREATE TABLE [dbo].[BILL] (
+    [bill_id]             INT          NOT NULL,
+    [bill_client_fname]   VARCHAR (30) NOT NULL,
+    [bill_client_lname]   VARCHAR (30) NOT NULL,
+    [bill_client_ctno]    VARCHAR (20) NOT NULL,
+    [bill_amount_payable] NUMERIC (18) NOT NULL,
+    [bill_mobo_id]        INT          NULL,
+    [bill_pro_id]         INT          NULL,
+    [bill_ram_id]         INT          NULL,
+    [bill_gpu_id]         INT          NULL,
+    [bill_hdd_id]         INT          NULL,
+    [bill_psu_id]         INT          NULL,
+    [bill_cab_id]         INT          NULL,
+    [bill_mobo_count]     INT          NULL,
+    [bill_pro_count]      INT          NULL,
+    [bill_ram_count]      INT          NULL,
+    [bill_gpu_count]      INT          NULL,
+    [bill_hdd_count]      INT          NULL,
+    [bill_psu_count]      INT          NULL,
+    [bill_cab_count]      INT          NULL,
+    PRIMARY KEY CLUSTERED ([bill_id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[CABINET] (
+    [cab_id]    INT          IDENTITY (1, 1) NOT NULL,
+    [cab_model] VARCHAR (20) NOT NULL,
+    [cab_price] NUMERIC (18) NOT NULL,
+    [cab_stock] INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([cab_id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[GRAPHIC_CARD] (
+    [gpu_id]    INT          IDENTITY (1, 1) NOT NULL,
+    [gpu_model] VARCHAR (20) NOT NULL,
+    [gpu_clock] INT          NOT NULL,
+    [gpu_vram]  INT          NOT NULL,
+    [gpu_price] NUMERIC (18) NOT NULL,
+    [gpu_stock] INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([gpu_id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[HDDS] (
+    [hdd_id]       INT          IDENTITY (1, 1) NOT NULL,
+    [hdd_name]     VARCHAR (20) NOT NULL,
+    [hdd_capacity] INT          NOT NULL,
+    [hdd_price]    NUMERIC (18) NOT NULL,
+    [hdd_stock]    INT          NULL,
+    PRIMARY KEY CLUSTERED ([hdd_id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[MOTHERBOARD] (
+    [mobo_id]    INT          IDENTITY (1, 1) NOT NULL,
+    [mobo_model] VARCHAR (20) NOT NULL,
+    [mobo_price] NUMERIC (18) NOT NULL,
+    [mobo_stock] INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([mobo_id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[PROCESSOR] (
+    [pro_id]    INT             IDENTITY (1, 1) NOT NULL,
+    [pro_model] VARCHAR (20)    NOT NULL,
+    [pro_clock] NUMERIC (18, 2) NOT NULL,
+    [pro_cores] INT             NOT NULL,
+    [pro_cache] INT             NOT NULL,
+    [pro_price] NUMERIC (18)    NOT NULL,
+    [pro_stock] INT             NOT NULL,
+    PRIMARY KEY CLUSTERED ([pro_id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[PSU] (
+    [psu_id]    INT          IDENTITY (1, 1) NOT NULL,
+    [psu_mode]  VARCHAR (20) NOT NULL,
+    [psu_watt]  INT          NOT NULL,
+    [psu_price] NUMERIC (18) NOT NULL,
+    [psu_stock] INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([psu_id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[RAM] (
+    [ram_id]       INT          IDENTITY (1, 1) NOT NULL,
+    [ram_model]    VARCHAR (20) NOT NULL,
+    [ram_capacity] INT          NOT NULL,
+    [ram_freq]     NUMERIC (18) NOT NULL,
+    [ram_price]    NUMERIC (18) NOT NULL,
+    [ram_stock]    INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([ram_id] ASC)
+);
+
+

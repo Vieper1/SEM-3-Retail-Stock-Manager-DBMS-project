@@ -1,0 +1,21 @@
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\DBMS Project SEM2.exe.config
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS Project SEM2.vbprojResolveAssemblyReference.cache
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS_Project_SEM2.main_page.resources
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS_Project_SEM2.Resources.resources
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS_Project_SEM2.Stock_info.resources
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS Project SEM2.vbproj.GenerateResource.Cache
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS Project SEM2.xml
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\Sniper_DBMS_project_DB.mdf
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\DBMS Project SEM2.exe
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\DBMS Project SEM2.pdb
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\DBMS Project SEM2.xml
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS Project SEM2.exe
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS Project SEM2.pdb
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS_Project_SEM2.Billing_page.resources
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\Sniper_DBMS_project_DB_log.ldf
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS_Project_SEM2.Salelog.resources
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\DBMS Project SEM2.exe.manifest
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\bin\Debug\DBMS Project SEM2.application
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS Project SEM2.exe.manifest
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS Project SEM2.application
+G:\GT2\Project Files\Studio 2015\SQL Datasheet\Original\DBMS Project SEM2\DBMS Project SEM2\obj\Debug\DBMS_Project_SEM2.Splash_This.resources
